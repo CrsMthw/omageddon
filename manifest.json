@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.crsmthw.omageddon",
+  "name": "Omageddon",
+  "version": "1.0.0",
+  "author": "CrsMthw",
+  "license": "MIT",
+  "description": "Take a hammer to your own desktop. Nine weapons on a full-screen overlay, in the spirit of the Windows XP era desktop-smashing toys: shatter it, saw it, torch it, and press R to put it all back.",
+  "kinds": [
+    "overlay",
+    "bar-widget"
+  ],
+  "keepLoaded": true,
+  "entryPoints": {
+    "overlay": "Overlay.qml",
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Omageddon",
+    "description": "Take a hammer to your desktop. Click to open the weapon menu.",
+    "category": "Fun",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
